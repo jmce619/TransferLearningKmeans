@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c4954ad1d5ed4edfb2ee0c9033eb2cd7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_c4954ad1d5ed4edfb2ee0c9033eb2cd7" ></div>
+        
+</body>
+<script>    
+    
+            var map_c4954ad1d5ed4edfb2ee0c9033eb2cd7 = L.map(
+                "map_c4954ad1d5ed4edfb2ee0c9033eb2cd7",
+                {
+                    center: [40.7128, -74.006],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a6ea8d54c94a49d6852f7d27a65b205d = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c4954ad1d5ed4edfb2ee0c9033eb2cd7);
+        
+    
+            var marker_de4dd25585ea4773b472435180fa37d2 = L.marker(
+                [40.7142077, -73.9613115],
+                {}
+            ).addTo(map_c4954ad1d5ed4edfb2ee0c9033eb2cd7);
+        
+    
+        var popup_ab33b6fdbc53475abed385e731d8839a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e561becb8d149528687bf20a7e743a4 = $(`<div id="html_0e561becb8d149528687bf20a7e743a4" style="width: 100.0%; height: 100.0%;">Chocolat Michel Cluizel</div>`)[0];
+            popup_ab33b6fdbc53475abed385e731d8839a.setContent(html_0e561becb8d149528687bf20a7e743a4);
+        
+
+        marker_de4dd25585ea4773b472435180fa37d2.bindPopup(popup_ab33b6fdbc53475abed385e731d8839a)
+        ;
+
+        
+    
+    
+            var marker_edc44aa5133b4ee9bf28105c1006f3e0 = L.marker(
+                [40.72732, -73.98305],
+                {}
+            ).addTo(map_c4954ad1d5ed4edfb2ee0c9033eb2cd7);
+        
+    
+        var popup_a5e740fb87074ebbb052c76c09548be4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e596aa7cdf9d42d0bfa3ef746ed590cf = $(`<div id="html_e596aa7cdf9d42d0bfa3ef746ed590cf" style="width: 100.0%; height: 100.0%;">Confectionery</div>`)[0];
+            popup_a5e740fb87074ebbb052c76c09548be4.setContent(html_e596aa7cdf9d42d0bfa3ef746ed590cf);
+        
+
+        marker_edc44aa5133b4ee9bf28105c1006f3e0.bindPopup(popup_a5e740fb87074ebbb052c76c09548be4)
+        ;
+
+        
+    
+    
+            var marker_216be67bdb6f44088fc535ee652476a9 = L.marker(
+                [40.75948, -73.97422],
+                {}
+            ).addTo(map_c4954ad1d5ed4edfb2ee0c9033eb2cd7);
+        
+    
+        var popup_50523bff76214344868512d70583399c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_525df42843b845379fb13232772563a0 = $(`<div id="html_525df42843b845379fb13232772563a0" style="width: 100.0%; height: 100.0%;">ROYCE&#x27; Madison</div>`)[0];
+            popup_50523bff76214344868512d70583399c.setContent(html_525df42843b845379fb13232772563a0);
+        
+
+        marker_216be67bdb6f44088fc535ee652476a9.bindPopup(popup_50523bff76214344868512d70583399c)
+        ;
+
+        
+    
+    
+            var marker_33ad8b4b1fe04ea7a89c39e8f54973b3 = L.marker(
+                [40.75946, -73.97493],
+                {}
+            ).addTo(map_c4954ad1d5ed4edfb2ee0c9033eb2cd7);
+        
+    
+        var popup_c4301cbf15144046bf95e775a4fd3a68 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4ddd4400cff4e2b894cb5bb5818def0 = $(`<div id="html_b4ddd4400cff4e2b894cb5bb5818def0" style="width: 100.0%; height: 100.0%;">Neuhaus Belgian Chocolate</div>`)[0];
+            popup_c4301cbf15144046bf95e775a4fd3a68.setContent(html_b4ddd4400cff4e2b894cb5bb5818def0);
+        
+
+        marker_33ad8b4b1fe04ea7a89c39e8f54973b3.bindPopup(popup_c4301cbf15144046bf95e775a4fd3a68)
+        ;
+
+        
+    
+    
+            var marker_f5251ae86f8c4d079de20a822398f8ea = L.marker(
+                [40.7545721, -73.9830934],
+                {}
+            ).addTo(map_c4954ad1d5ed4edfb2ee0c9033eb2cd7);
+        
+    
+        var popup_a20d82443c814cd89ab4969289ff7c19 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f6ee92c7455d49e188e322f735396ae2 = $(`<div id="html_f6ee92c7455d49e188e322f735396ae2" style="width: 100.0%; height: 100.0%;">Kreuther Handcrafted Chocolate</div>`)[0];
+            popup_a20d82443c814cd89ab4969289ff7c19.setContent(html_f6ee92c7455d49e188e322f735396ae2);
+        
+
+        marker_f5251ae86f8c4d079de20a822398f8ea.bindPopup(popup_a20d82443c814cd89ab4969289ff7c19)
+        ;
+
+        
+    
+    
+            var marker_1acf1e7e553e4e7f878439188d423f1d = L.marker(
+                [40.752915, -73.983679],
+                {}
+            ).addTo(map_c4954ad1d5ed4edfb2ee0c9033eb2cd7);
+        
+    
+        var popup_ab5252bb78404be58dc363966d1de324 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95131a9b1507446ea4f4a89462e5539e = $(`<div id="html_95131a9b1507446ea4f4a89462e5539e" style="width: 100.0%; height: 100.0%;">No Chewing Allowed!</div>`)[0];
+            popup_ab5252bb78404be58dc363966d1de324.setContent(html_95131a9b1507446ea4f4a89462e5539e);
+        
+
+        marker_1acf1e7e553e4e7f878439188d423f1d.bindPopup(popup_ab5252bb78404be58dc363966d1de324)
+        ;
+
+        
+    
+    
+            var marker_00ddb555598c4d3aaf2785803637a6d1 = L.marker(
+                [40.737487, -73.990474],
+                {}
+            ).addTo(map_c4954ad1d5ed4edfb2ee0c9033eb2cd7);
+        
+    
+        var popup_f9852faae97c4574aa0f4faaa078f3d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6aa7735c6cea481b98a21be4a83d6ade = $(`<div id="html_6aa7735c6cea481b98a21be4a83d6ade" style="width: 100.0%; height: 100.0%;">Venchi</div>`)[0];
+            popup_f9852faae97c4574aa0f4faaa078f3d6.setContent(html_6aa7735c6cea481b98a21be4a83d6ade);
+        
+
+        marker_00ddb555598c4d3aaf2785803637a6d1.bindPopup(popup_f9852faae97c4574aa0f4faaa078f3d6)
+        ;
+
+        
+    
+    
+            var marker_607a3c342e9644cf9d00b0807312aa8c = L.marker(
+                [40.7032, -73.99145],
+                {}
+            ).addTo(map_c4954ad1d5ed4edfb2ee0c9033eb2cd7);
+        
+    
+        var popup_2abc1cbeb02c4ca8b7d8deeebb176a40 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b6f09ead6b4496a9987f4bd680702ab = $(`<div id="html_6b6f09ead6b4496a9987f4bd680702ab" style="width: 100.0%; height: 100.0%;">Jacques Torres Chocolate</div>`)[0];
+            popup_2abc1cbeb02c4ca8b7d8deeebb176a40.setContent(html_6b6f09ead6b4496a9987f4bd680702ab);
+        
+
+        marker_607a3c342e9644cf9d00b0807312aa8c.bindPopup(popup_2abc1cbeb02c4ca8b7d8deeebb176a40)
+        ;
+
+        
+    
+    
+            var marker_b480905c5fdc4fbfa9d7f38746bc5885 = L.marker(
+                [40.72139, -73.99545],
+                {}
+            ).addTo(map_c4954ad1d5ed4edfb2ee0c9033eb2cd7);
+        
+    
+        var popup_bff9ef3abd534ca7b8fefab07dbb53c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a817cf59f788447990bb50facbe312d6 = $(`<div id="html_a817cf59f788447990bb50facbe312d6" style="width: 100.0%; height: 100.0%;">Stick With Me</div>`)[0];
+            popup_bff9ef3abd534ca7b8fefab07dbb53c4.setContent(html_a817cf59f788447990bb50facbe312d6);
+        
+
+        marker_b480905c5fdc4fbfa9d7f38746bc5885.bindPopup(popup_bff9ef3abd534ca7b8fefab07dbb53c4)
+        ;
+
+        
+    
+    
+            var marker_d9dccad9f4c14e0282b6f6a3c4aadc9e = L.marker(
+                [40.7232107708636, -74.002450627852],
+                {}
+            ).addTo(map_c4954ad1d5ed4edfb2ee0c9033eb2cd7);
+        
+    
+        var popup_d62a26f38e20441093819138d0f024b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b05d3a901cd4b61967f65e82f34570f = $(`<div id="html_7b05d3a901cd4b61967f65e82f34570f" style="width: 100.0%; height: 100.0%;">MarieBelle</div>`)[0];
+            popup_d62a26f38e20441093819138d0f024b7.setContent(html_7b05d3a901cd4b61967f65e82f34570f);
+        
+
+        marker_d9dccad9f4c14e0282b6f6a3c4aadc9e.bindPopup(popup_d62a26f38e20441093819138d0f024b7)
+        ;
+
+        
+    
+    
+            var marker_c35b39156f8145839deffec4abcca3a3 = L.marker(
+                [40.72767, -74.00708],
+                {}
+            ).addTo(map_c4954ad1d5ed4edfb2ee0c9033eb2cd7);
+        
+    
+        var popup_abfd4a4d01324f63bdcf497a934e5abf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b8a0c4b9712545c48e5cf7ccfcea6386 = $(`<div id="html_b8a0c4b9712545c48e5cf7ccfcea6386" style="width: 100.0%; height: 100.0%;">Jacques Torres Chocolate</div>`)[0];
+            popup_abfd4a4d01324f63bdcf497a934e5abf.setContent(html_b8a0c4b9712545c48e5cf7ccfcea6386);
+        
+
+        marker_c35b39156f8145839deffec4abcca3a3.bindPopup(popup_abfd4a4d01324f63bdcf497a934e5abf)
+        ;
+
+        
+    
+    
+            var marker_219cf4e6fbf141eab5cbbc49d33961e8 = L.marker(
+                [40.72577, -74.00136],
+                {}
+            ).addTo(map_c4954ad1d5ed4edfb2ee0c9033eb2cd7);
+        
+    
+        var popup_90fb89823f0e4e0abc7987b3d40d01fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1918fcf9eea94395aa7133a770f0b684 = $(`<div id="html_1918fcf9eea94395aa7133a770f0b684" style="width: 100.0%; height: 100.0%;">L.A. Burdick Handmade Chocolates</div>`)[0];
+            popup_90fb89823f0e4e0abc7987b3d40d01fa.setContent(html_1918fcf9eea94395aa7133a770f0b684);
+        
+
+        marker_219cf4e6fbf141eab5cbbc49d33961e8.bindPopup(popup_90fb89823f0e4e0abc7987b3d40d01fa)
+        ;
+
+        
+    
+    
+            var marker_f579231355434cb68e1803da8472403c = L.marker(
+                [40.695189, -73.994798],
+                {}
+            ).addTo(map_c4954ad1d5ed4edfb2ee0c9033eb2cd7);
+        
+    
+        var popup_e4b9aaab37514c86933802a01825525b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54d4db0dff684d79b91ebf05f81c8654 = $(`<div id="html_54d4db0dff684d79b91ebf05f81c8654" style="width: 100.0%; height: 100.0%;">Emack &amp; Bolio&#x27;s Brooklyn Heights</div>`)[0];
+            popup_e4b9aaab37514c86933802a01825525b.setContent(html_54d4db0dff684d79b91ebf05f81c8654);
+        
+
+        marker_f579231355434cb68e1803da8472403c.bindPopup(popup_e4b9aaab37514c86933802a01825525b)
+        ;
+
+        
+    
+    
+            var marker_1ae40dbc89d4421982388b0b3b3e2d01 = L.marker(
+                [40.7795052230358, -73.9809150248766],
+                {}
+            ).addTo(map_c4954ad1d5ed4edfb2ee0c9033eb2cd7);
+        
+    
+        var popup_5e78f2fadef1469f98ba230ba3836f2a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_341c2c18411f42208d1ed0f54dd96782 = $(`<div id="html_341c2c18411f42208d1ed0f54dd96782" style="width: 100.0%; height: 100.0%;">Jacques Torres Chocolate</div>`)[0];
+            popup_5e78f2fadef1469f98ba230ba3836f2a.setContent(html_341c2c18411f42208d1ed0f54dd96782);
+        
+
+        marker_1ae40dbc89d4421982388b0b3b3e2d01.bindPopup(popup_5e78f2fadef1469f98ba230ba3836f2a)
+        ;
+
+        
+    
+    
+            var marker_3aec881fbcbf439899aa4dfef619ae77 = L.marker(
+                [40.928148, -73.7518335],
+                {}
+            ).addTo(map_c4954ad1d5ed4edfb2ee0c9033eb2cd7);
+        
+    
+        var popup_d6c3c645c6204ec98f2260f16231fe54 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e0b953b61884ea8937fa6f6dda6fa27 = $(`<div id="html_3e0b953b61884ea8937fa6f6dda6fa27" style="width: 100.0%; height: 100.0%;">Bread &amp; Cocoa</div>`)[0];
+            popup_d6c3c645c6204ec98f2260f16231fe54.setContent(html_3e0b953b61884ea8937fa6f6dda6fa27);
+        
+
+        marker_3aec881fbcbf439899aa4dfef619ae77.bindPopup(popup_d6c3c645c6204ec98f2260f16231fe54)
+        ;
+
+        
+    
+    
+            var marker_8b56185dd8e047dfa3efcd33ca3d1034 = L.marker(
+                [40.74829, -73.98241],
+                {}
+            ).addTo(map_c4954ad1d5ed4edfb2ee0c9033eb2cd7);
+        
+    
+        var popup_eb1acc71fcc14a0d92a6c256d34dd4c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72362029334949c18c05a61789bdf468 = $(`<div id="html_72362029334949c18c05a61789bdf468" style="width: 100.0%; height: 100.0%;">Chocolat Michel Cluizel</div>`)[0];
+            popup_eb1acc71fcc14a0d92a6c256d34dd4c6.setContent(html_72362029334949c18c05a61789bdf468);
+        
+
+        marker_8b56185dd8e047dfa3efcd33ca3d1034.bindPopup(popup_eb1acc71fcc14a0d92a6c256d34dd4c6)
+        ;
+
+        
+    
+    
+            var marker_9e7234baa9344d0f95cd941abab61508 = L.marker(
+                [40.81627, -73.97983],
+                {}
+            ).addTo(map_c4954ad1d5ed4edfb2ee0c9033eb2cd7);
+        
+    
+        var popup_6c78649e4ca4400c8907502b03dab07a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f165842cf10041178e7cac4e2b854fdf = $(`<div id="html_f165842cf10041178e7cac4e2b854fdf" style="width: 100.0%; height: 100.0%;">ROYCE&#x27; New Jersey</div>`)[0];
+            popup_6c78649e4ca4400c8907502b03dab07a.setContent(html_f165842cf10041178e7cac4e2b854fdf);
+        
+
+        marker_9e7234baa9344d0f95cd941abab61508.bindPopup(popup_6c78649e4ca4400c8907502b03dab07a)
+        ;
+
+        
+    
+    
+            var marker_62f69889a468417aad6771ade1788e54 = L.marker(
+                [40.67016, -73.97904],
+                {}
+            ).addTo(map_c4954ad1d5ed4edfb2ee0c9033eb2cd7);
+        
+    
+        var popup_62d2e04e30904fa783b43e4f78174a83 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1936d738e51445f192147fa1ab6985e1 = $(`<div id="html_1936d738e51445f192147fa1ab6985e1" style="width: 100.0%; height: 100.0%;">Chocolateria</div>`)[0];
+            popup_62d2e04e30904fa783b43e4f78174a83.setContent(html_1936d738e51445f192147fa1ab6985e1);
+        
+
+        marker_62f69889a468417aad6771ade1788e54.bindPopup(popup_62d2e04e30904fa783b43e4f78174a83)
+        ;
+
+        
+    
+</script>
